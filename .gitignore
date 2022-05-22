@@ -1,0 +1,9 @@
+# Вспомогательные файлы
+*.log*
+node_modules/
+.idea
+package-lock.json
+
+# Папка с собранными файлами проекта
+build/
+src/img

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div id="app">
+        @@include('./html/header.html')
+        <section class="reviews">
+            <div class="reviews__wrapper">
+                <div class="reviews__title title">
+                    Нравится у нас? Оставьте отзыв и получите баллы!
+                </div>
+                <button class="reviews__button base-btn">
+                    Оставить отзыв
+                </button>
+            </div>
+        </section>
+        <main class="container">
+            <div class="services">
+                <div class="services__item">
+                    <img src="img/my-office.webp">
+                    <div class="services__action">
+                        <div class="services__title title">Мой кабинет</div>
+                        <div class="services__link"><a href="#">Подробнее</a></div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <img src="img/room-service.webp">
+                    <div class="services__action">
+                        <div class="services__title title">Обслуживание в номер</div>
+                        <div class="services__link"><a href="#">Подробнее</a></div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <img src="img/service.webp">
+                    <div class="services__action">
+                        <div class="services__title title">Сервис</div>
+                        <div class="services__link"><a href="#">Подробнее</a></div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <img src="img/additional-services.webp">
+                    <div class="services__action">
+                        <div class="title">Доп.Услуги</div>
+                        <div class="services__link"><a href="#">Подробнее</a></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        @@include('./html/footer.html')
+    </div>
+
+    <script src="js/main.min.js"></script>
+</body>
+</html>

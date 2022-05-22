@@ -1,0 +1,24 @@
+.reviews {
+  background: url("../img/fon-reviews.webp") no-repeat;
+  height: 50vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__wrapper {
+    text-align: center;
+  }
+
+  &__title {
+    margin: 0 0 50px 0;
+  }
+
+  &__button {
+    border: 2px solid #ba975f;
+    text-transform: uppercase;
+    background-color: unset;
+    padding: 1rem 3rem;
+    font-size: 14px;
+  }
+}

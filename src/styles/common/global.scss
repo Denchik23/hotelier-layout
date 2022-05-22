@@ -1,0 +1,80 @@
+@import "../../../node_modules/normalize.css/normalize";
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Arial',Arial,sans-serif;
+}
+
+body {
+    background-color: #16604a;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.base-btn {
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Arial',Arial,sans-serif;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    background-color: #c09e5f;
+    background-position: center center;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+
+section, main, footer, header {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+body.lock {
+    overflow: hidden;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        top: 0;
+        background-color: black;
+        opacity: 0.3;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
